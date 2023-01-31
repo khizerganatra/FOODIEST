@@ -1,0 +1,188 @@
+
+/* -----NAVBAR STARTS----- */
+
+ul> li> .active{
+    color: white;
+    
+    border-radius: 10px;
+    
+}
+
+ul> li> .active:hover{
+    color: rgb(207, 168, 40);
+    
+}
+
+ul > li > .nav-link{
+    color: white;
+}
+
+/* --------NAVBAR ENDS-------- */
+
+/* -----------SEARCH CONTAINER STARTS--------- */
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 500px;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+.search-container > .img-2{
+    display: none;
+}
+
+.search-container-text-search-area{
+    position: absolute;
+}
+
+
+.search-form-area{
+    width: 320px;
+}
+
+.search-container-text{
+    /* background-color: blue; */
+    margin-left: 20px;
+    
+}
+
+/* .search-container-search-area{
+   
+} */
+
+.search-container-search{
+    /* background-color: brown; */
+    display: flex;
+    margin-left: 60px;
+    
+}
+
+.search-container-search-area{
+    color: aqua;
+}
+
+.search-container-search-input{
+    background-color: rgb(180, 174, 174);
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: none;
+    width: 250px;
+    padding: 10px;
+
+}
+
+.search-container-search-icon{
+    background-color: rgb(180, 174, 174);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding-right: 10px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    
+
+}
+/* --------- SEARCH CONTAINER ENDS------ */
+
+/* ---------------CARDS 01 STARTS---------- */
+.cards-container{
+    width: 100%;
+}
+
+.cards-container > h2,p {
+    text-align: center;
+
+}
+
+.card-area{
+    background-color: aqua;
+}
+
+.card-image{
+    height: 200px;
+    width: 100%;
+}
+
+
+.btn{
+ color: aqua;
+ background-color: blue;
+}
+
+/* ---------------CARDS 01 ENDS---------- */
+
+/* ---------CAROUSEL INNER STARTS-------- */
+
+.carousel-inner{
+    height: 400px;
+    width: 100%;
+
+}
+
+
+.image{
+    height: 400px;
+    width: 100%;
+}
+
+
+.carousel-text >h5 ,p{
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+/* ---------CAROUSEL INNER STARTS-------- */
+
+/* -------MEDIA QUIRY STARTS--------- */
+
+@media (max-width: 550px){
+    .search-container{
+        /* background-color: aqua; */
+        height: 300px;
+    }
+    .search-container-text > h1{
+        font-size: 20px;
+        /* background-color: blue; */
+    }
+    .search-container-text > p{
+        font-size: 10px;
+        /* background-color: blue; */
+    }
+    .search-container > .img-1{
+        display: none;
+    }
+
+    .search-container > .img-2{
+        display: block;
+        width: 100%;
+        position: absolute;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 992px ){
+    .search-area{
+        width: 150px;
+    }
+
+    .carousel-inner{
+        height: 500px;
+    
+    }
+
+    .image{
+        height: 500px;
+    }
+}
+
+
+/* -------MEDIA QUIRY ENDS--------- */

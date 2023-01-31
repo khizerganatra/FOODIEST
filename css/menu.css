@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dish-details-container{
+    height: 600px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.dish-details-img{
+    height: 500px;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.dish-img{
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.dish-details-text-area{
+    /* background-color: brown; */
+    height: 500px;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.qyantity-div{
+    /* background-color: cornflowerblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qyantity-div > h3{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.qyantity-increase{
+    border: 1px solid black;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.qyantity-increase:hover{
+    border: 1px solid black;
+    background-color: rgb(170, 157, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.qyantity-decrease{
+    border: 1px solid black;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.qyantity-decrease:hover{
+    border: 1px solid black;
+    background-color: rgb(170, 157, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.button-div{
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: center;
+} 
+
+.button-div > button{
+    color: black;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10px;
+    width: 170px;
+    height: 40px;
+    margin: 8px;
+}
+
+.button-div > button:hover{
+    background-color: rgb(170, 117, 4);
+}
+
+
+.button-div > button > i {
+    padding-right: 10px;
+}
+
+@media (max-width: 630px){
+    .dish-details-container{
+        
+        min-height: 600px;
+        width: 100%;
+        display:  contents;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .dish-details-img{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .dish-details-text-area{
+        width: 100%;
+        padding-left: 20px;
+    }
+}
